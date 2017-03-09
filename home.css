@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Roboto;
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/ink/3.1.10/fonts/Roboto_condensed/robotocondensed-regular-webfont.woff);
+}
+
+body {
+    margin: 0;
+    background-image: url("bg.jpg");
+    background-color: #cccccc;
+    font-family : Roboto, Helvetica;
+}
+
+.tl-about-me,.tl-navigation {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    width: 25%;
+}
+
+.tl-navigation ol {
+    width: 75%;
+}
+
+.tl-about-me p {
+    width: 50%;
+}
+
+img.tl-profile {
+    border-radius: 50%;
+    height: 100px;
+}
+
+.tl-card {
+    background-color : #dddddd;
+    padding : 5px;
+    margin  : 10px;
+    border-radius : 5px;
+    box-shadow: 2px 2px 2px #777;
+}
+
+.tl-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
