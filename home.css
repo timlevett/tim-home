@@ -30,12 +30,14 @@ section.tl-me {
     display: inline-flex;
     list-style-type: none;
     margin: 10px;
-    padding: 3px;
     text-align: center;
 }
 
 .tl-links div ol li a {
+    padding: 7px;
     text-decoration: none;
+    color: #0000bb;
+    text-align: center;
 }
 
 .bottom-padding {
