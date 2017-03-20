@@ -8,20 +8,53 @@ body {
     background-image: url("bg.jpg");
     background-color: #cccccc;
     font-family : Roboto, Helvetica;
+    background-position: center;
 }
 
-.tl-about-me,.tl-navigation {
+section.tl-navigation {
+    position: fixed;
+    bottom: 0;
+    max-width: 95%;
+    margin-left: 2%;
+    width: 100%;
+}
+
+section.tl-me {
+    max-width: 95%;
+}
+
+.tl-links div ol li {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius : 2px;
+    display: inline-flex;
+    list-style-type: none;
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+}
+
+.tl-links div ol li a {
+    text-decoration: none;
+}
+
+.bottom-padding {
+    margin-bottom: 500px;
+}
+
+.tl-about-me,.tl-links {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
 }
 
-h2 {
-    width: 25%;
+span.title {
+    font-weight: 400;
+    font-size: large;
 }
 
-.tl-navigation ol {
+.tl-links div {
     width: 75%;
 }
 
@@ -37,9 +70,10 @@ img.tl-profile {
 .tl-card {
     background-color : #dddddd;
     padding : 5px;
-    margin  : 10px;
-    border-radius : 5px;
+    margin  : 10px auto;
+    border-radius : 3px;
     box-shadow: 2px 2px 2px #777;
+    max-width: 800px;
 }
 
 .tl-background img {
@@ -47,4 +81,9 @@ img.tl-profile {
     top: 0;
     left: 0;
     width: 100%;
+}
+
+h1.site-header {
+    color: #fff;
+    text-align: center;
 }
